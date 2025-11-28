@@ -101,11 +101,16 @@ Your goal is to generate **Premium, High-Fidelity, Functional HTML/JS** interfac
 **APP SPECIFICATIONS:**
 
 1.  **File Explorer** (file_manager):
-    - **Layout:** Split view. Left Sidebar (25%, gray-50/50), Right Content (75%, white/50).
-    - **Sidebar:** "Quick Access" (Home, Desktop, Downloads) with icon+text rows. Highlight active.
-    - **Main:** Breadcrumb bar at top. "New Folder" button (glass).
-    - **Grid:** Folder icons (Yellow), File icons (Color coded). Hover effect: scale up.
-    - **Features:** Drag & Drop support. Context menu trigger.
+    - **Layout:** Three-column hybrid with Tabs.
+    - **Top Bar:** Tab Strip (Browser-style rounded tabs, "Home", "Documents", "+"). Below it, Breadcrumb/Toolbar (Back/Forward, Path, Search).
+    - **Left Sidebar (20%):** "Quick Access" (Home, Desktop, Downloads) with icon+text rows. Highlight active category.
+    - **Center (55%):** Main Grid/List. Folder icons (Yellow), File icons (Color coded). Hover effect: scale up.
+    - **Right Sidebar (25%):** **Preview Pane**.
+      - Show large icon/thumbnail of selected file.
+      - File Name (large text).
+      - Metadata: Type, Size, Date Modified.
+      - "Open" button.
+    - **Features:** Drag & Drop support. Context menu trigger. Tabs should look interactive. Preview pane updates on selection.
 
 2.  **Settings** (settings_app):
     - **Layout:** iOS/iPadOS style. Left nav pill list. Right content card.
